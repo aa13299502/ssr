@@ -4,7 +4,7 @@ import base64, requests, os
 root_dir = os.path.dirname(os.path.abspath(__file__))
 path = root_dir+'/ssr.txt'
 res = root_dir+'/ssr'
-group = '左手zuoshou'
+group = 'Smwn pyzx-ssr订阅'
 group = base64.urlsafe_b64encode(group.encode()).decode().strip('=')
 try:
     with open(path,'r') as f:
